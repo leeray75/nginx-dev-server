@@ -55,11 +55,8 @@ To run the project locally, execute one of the following files depending on your
 
 These scripts will handle the setup and execution of the project, including Docker container management and environment variable loading.
 
-**Note:** When accessing the URLs provided in the samples, your browser may show a security warning due to self-signed certificates. You will need to manually approve accessing the image server and the API server by opening those network requests in a new browser tab and accepting the security risks associated with self-signed certificates.
+**Note:** When accessing the URLs provided in the browser, make sure to include the port number `8080` after the domain name, for example: `https://localhost.staging.example.com:8080/app-path`
 
-## Samples:
+## App Server Instances
 
-The App Server instances need to be available on the environments' physical servers.
-
-* [Staging Local](https://localhost.staging.example.com:8080/app-path)
-* [Staging QA01 Local](https://localhost.qa.example:8080/app-path)
+The App Server instances should be available on the environments' physical servers. Access them using the appropriate URLs provided above, including the port number `8080` in the browser's URL.
